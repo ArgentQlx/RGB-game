@@ -116,8 +116,12 @@ body {
 @media(max-width: 767px) {
     .wrapper {
         width: 400px;
+        height: 700px;
+        gap: 20px;
     }
     .inputs, .displays {
         width: 100%;
     }
+    #timer {font-size: 40px}
+    #startGame, .correct h2, .correct p {font-size: 15px}
 }
