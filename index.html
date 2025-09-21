@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>  
+    <div class="wrapper">
+        <div class="displays">
+            <div class="display" id="display"></div>
+            <div class="display" id="display1"></div>
+        </div>
+        <div class="inputs">
+            <div class="inp">
+                <p>Red</p>
+                <input type="range" id="redInp" min="0" max="255" value="0">
+                <p id="redValue">0</p>
+            </div>
+            <div class="inp">
+                <p>Green</p>
+                <input type="range" id="greenInp" min="0" max="255" value="0">
+                <p id="greenValue">0</p>
+            </div>
+            <div class="inp">
+                <p>Blue</p>
+                <input type="range" id="blueInp" min="0" max="255" value="0">
+                <p id="blueValue">0</p>
+            </div>
+            <div class="menu">
+                <p id="timer">00</p>
+                <button id="startGame">play</button>
+            </div>
+            <div class="correct">
+                <h2>Correct values</h2>
+                <p id="redCorrect">Red: 0</p>
+                <p id="greenCorrect">Green: 0</p>
+                <p id="blueCorrect">Blue: 0</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
