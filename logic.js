@@ -66,8 +66,8 @@ function showCorrectColors() {
     correctBlue.textContent = `Blue: ${blue}`;
 };
 function setTimer() {
-    let time = 4;
-    timer.textContent = '5';
+    let time = 59;
+    timer.textContent = '60';
     timerInterval = setInterval(() => {
         timer.textContent = String(time).padStart(2, '0');
         time--;
@@ -103,4 +103,5 @@ blueInp.addEventListener('input', () => {
 startGame.addEventListener('click', () => {
     start();
 });
+
 changeInputsDisable(true);
